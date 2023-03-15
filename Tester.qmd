@@ -1,0 +1,38 @@
+---
+title: "Tester"
+format: html
+editor: visual
+keep-md: true
+---
+
+## Quarto
+
+Stuff
+
+```{r}
+#| echo: false
+library(tidyverse)
+library(flextable)
+```
+
+## Table now
+
+```{r, results='asis'}
+#| echo: false
+ftrmd <- tribble(
+  ~`FTE Assigned To`,    ~FTE,   ~`Hours per Week`,   ~`Example Sentence`,
+  "Finance team",        0.40,   16,                  "Lydia's FTE assigned to finance is 0.40.",
+  "Alma",                0.60,   24,                  "Lydia's Alma-assigned FTE is 0.60"
+) %>% flextable() %>% 
+  add_body_row(
+    top = FALSE,
+    list(
+      `FTE Assigned To` = "Crown Institute",
+      FTE = 1.0,
+      `Hours per Week` = 40,
+      `Example Sentence` = "Lydia's FTE at Crown is 1.0."
+    )
+  ) %>% flextable_to_rmd()
+
+print(ftrmd)
+```

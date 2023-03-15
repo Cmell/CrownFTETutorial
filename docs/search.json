@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "FTETutorial_V01.html#fte-defined",
+    "href": "FTETutorial_V01.html#fte-defined",
+    "title": "Crown Institute FTE",
+    "section": "Full Time Equivalent (FTE)",
+    "text": "Full Time Equivalent (FTE)\n\n\n\nFTE: proportion of a full time work load.\nAt Crown, a full-time workload is 40 hours per week.\n\nFull time: \\(\\frac{40 \\text{ hours}}{40\\text{ hour work week}} = 1.0 \\text{ FTE}\\)\nThree-quarters time: \\(\\frac{30 \\text{ hours}}{40\\text{ hour work week}} = 0.75 \\text{ FTE}\\)\nHalf time: \\(\\frac{20 \\text{ hours}}{40\\text{ hour work week}} = 0.50 \\text{ FTE}\\)"
+  },
+  {
+    "objectID": "FTETutorial_V01.html#example-1-lydia",
+    "href": "FTETutorial_V01.html#example-1-lydia",
+    "title": "Crown Institute FTE",
+    "section": "Example 1: Lydia",
+    "text": "Example 1: Lydia\n\n\nLydia works as a full time worker at Crown and splits her time 40/60 between the finance team and Alma.\n\n\n\n\n\n \n  \n    FTE Assigned To \n    FTE \n    Hours per Week \n    Example Sentence \n  \n \n\n  \n    Finance team \n    0.4 \n    16 \n    Lydia's FTE assigned to finance is 0.40. \n  \n  \n    Alma \n    0.6 \n    24 \n    Lydia's Alma-assigned FTE is 0.60 \n  \n  \n    Total \n    1.0 \n    40 \n    Lydia's FTE at Crown is 1.0; she is full time."
+  },
+  {
+    "objectID": "FTETutorial_V01.html#example-2-lyle",
+    "href": "FTETutorial_V01.html#example-2-lyle",
+    "title": "Crown Institute FTE",
+    "section": "Example 2: Lyle",
+    "text": "Example 2: Lyle\n\n\nLyle works for three-quarters of a full time position at Crown. His time is split evenly between the Mind Body Voice (MBV) project and the Mindful Campus project.\n\n\n\n\n\n\nTip\n\n\nPercentages and proportions can represent the same number, just with a differently placed decimal:\n.50 = 50%\n\n\n\n\n\n\n\n\n \n  \n    FTE Assigned To \n    FTE \n    Hours per Week \n    Example Sentence \n  \n \n\n  \n    MBV \n    0.375 \n    15 \n    Lyle's FTE on MBV is 37.5%. \n  \n  \n    Mindful Campus \n    0.375 \n    15 \n    Lyle's Mindful-Campus-assigned FTE is 0.375 \n  \n  \n    Total \n    0.750 \n    30 \n    Lyle's FTE at Crown is 0.75."
+  },
+  {
+    "objectID": "FTETutorial_V01.html#example-2-lyle-1",
+    "href": "FTETutorial_V01.html#example-2-lyle-1",
+    "title": "Crown Institute FTE",
+    "section": "Example 2: Lyle",
+    "text": "Example 2: Lyle\nNotice, this is NOT correct:\n\nHalf of Lyle’s FTE is spent on MBV.\n\nColloquially, we often say: “Half of Lyle’s time is on MBV.” But when discussing effort, this leads to confusion for people who have more or less than a full time position. Are speaking of half of Lyle’s full time work week? Or half of his Crown time? It is not clear with this phrasing.\nRather, this statement is unambiguous with our shared understanding of FTE:\n\n37.5% of Lyle’s FTE is spent on MBV. He works 75% FTE at Crown.\n\nThe definition of FTE is strict; it always answers the question, “how much of a 40 hour work week is dedicated to the purpose?”"
+  }
+]

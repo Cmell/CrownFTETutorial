@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: "Neue Helvetica", sans-serif;
+$font-family-monospace: "Helvetica", monospace;
+  
+// colors
+$body-bg: #002b36 ;
+$body-color: #93a1a1 ;
+$text-muted: $body-color ;
+$link-color: #268bd2 ;
+$selection-bg: #d33682 ;
+$input-panel-bg: rgba(233, 236, 239, 0.2) ;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}

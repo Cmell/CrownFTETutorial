@@ -1,0 +1,93 @@
+---
+title: "Crown Institute FTE"
+author: "Chris Mellinger"
+format: 
+  revealjs:
+    theme: ftetheme.scss
+editor: visual
+project:
+  type: website
+  output-dir: docs
+---
+
+## Full Time Equivalent (FTE) {#fte-defined}
+
+```{r}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+```
+
+**FTE**: proportion of a full time work load.
+
+At Crown, a full-time workload is 40 hours per week.
+
+-   Full time: $\frac{40 \text{ hours}}{40\text{ hour work week}} = 1.0 \text{ FTE}$
+-   Three-quarters time: $\frac{30 \text{ hours}}{40\text{ hour work week}} = 0.75 \text{ FTE}$
+-   Half time: $\frac{20 \text{ hours}}{40\text{ hour work week}} = 0.50 \text{ FTE}$
+
+## Example 1: Lydia {.smaller}
+
+::: columns
+::: {.column width="40%"}
+Lydia works as a full time worker at Crown and splits her time 40/60 between the finance team and Alma.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| label: lydia-ft
+
+tribble(
+  ~`FTE Assigned To`,    ~FTE,   ~`Hours per Week`,   ~`Example Sentence`,
+  "Finance team",        0.40,   16,                  "Lydia's FTE assigned to finance is 0.40.",
+  "Alma",                0.60,   24,                  "Lydia's Alma-assigned FTE is 0.60",
+  "Total",               1.0,    40,                  "Lydia's FTE at Crown is 1.0; she is full time."
+) %>% 
+  kable() %>% 
+  row_spec(3, bold = TRUE, italic = TRUE)
+```
+:::
+:::
+
+## Example 2: Lyle {.smaller}
+
+::: columns
+::: {.column width="40%"}
+Lyle works for three-quarters of a full time position at Crown. His time is split evenly between the Mind Body Voice (MBV) project and the Mindful Campus project.
+
+::: callout-tip
+Percentages and proportions can represent the same number, just with a differently placed decimal:
+
+.50 = 50%
+:::
+:::
+
+::: {.column width="60%"}
+```{r}
+#| label: lyle-ft
+
+tribble(
+  ~`FTE Assigned To`,    ~FTE,   ~`Hours per Week`,   ~`Example Sentence`,
+  "MBV",                 0.375,   15,                  "Lyle's FTE on MBV is 37.5%.",
+  "Mindful Campus",      0.375,   15,                  "Lyle's Mindful-Campus-assigned FTE is 0.375",
+  "Total",               0.75,    30,                  "Lyle's FTE at Crown is 0.75."
+) %>% 
+  kable() %>% 
+  row_spec(3, bold = TRUE, italic = TRUE)
+```
+:::
+:::
+
+## Example 2: Lyle {.smaller}
+
+Notice, this is *NOT* correct:
+
+> Half of Lyle's FTE is spent on MBV.
+
+Colloquially, we often say: "Half of Lyle's time is on MBV." But when discussing effort, this leads to confusion for people who have more or less than a full time position. Are speaking of half of Lyle's full time work week? Or half of his Crown time? It is not clear with this phrasing.
+
+Rather, this statement is unambiguous with our shared understanding of FTE:
+
+> 37.5% of Lyle's FTE is spent on MBV. He works 75% FTE at Crown.
+
+The definition of FTE is strict; it always answers the question, "how much of a 40 hour work week is dedicated to the purpose?"
